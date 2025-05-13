@@ -1,5 +1,5 @@
 site_name: EODH Climate Asset Risk Web Application
-site_url: https://eodhdocs.sparkgeo.uk
+site_url: https://eo-datahub.github.io/climate-app-docs/
 site_author: Sparkgeo
 theme:
   name: material

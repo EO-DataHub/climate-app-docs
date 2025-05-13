@@ -31,15 +31,4 @@ The following terms may be referenced within the online documenation and associa
 ***
 [**Next Topic:** User Guide - Getting Started][gettingstarted]
 
-[gettingstarted]: /uk_eodatahub/b1-getting-started
-[about]: /uk_eodatahub/b2-about
-[hazards]: /uk_eodatahub/b3-hazards
-[observations]: /uk_eodatahub/b4-observations
-[assets]: /uk_eodatahub/b5-assets
-[portfolios]: /uk_eodatahub/b6-portfolios
-[analytics]: /uk_eodatahub/b7-activity
-[activity]: /uk_eodatahub/b8-activity
-[information]: /uk_eodatahub/b9-information
-[login]: /uk_eodatahub/b10-login
-
-
+[gettingstarted]: /climate-app-docs/b1-getting-started

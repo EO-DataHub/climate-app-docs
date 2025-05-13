@@ -3,6 +3,7 @@ title: Testing
 icon: material/book-open-variant-outline
 ---
 # Testing
+
 This page contains suggested test scripts that can be used to test the application.  
 
 ## Authentication, asset data and workflow tests
@@ -14,6 +15,7 @@ This page contains suggested test scripts that can be used to test the applicati
 |Time:||
 
 ### Test 1 - Logging in and out
+
 |#|Test|Expected result|Tested (Y/N)|Pass / Fail|
 |---|---|---|---|---|
 |1.1|Login with `sparkgeouser` credentials|User is logged in and stays logged in| | |
@@ -23,8 +25,9 @@ This page contains suggested test scripts that can be used to test the applicati
 
 !!! note
     For tests 2 to 4, repeat with both `sparkgeouser` and `GitHub` user
-    
+
 ### Test 2 - Worklow with sample portfolio
+
 |#|Test|Expected result|Tested (Y/N)|Pass / Fail|
 |---|---|---|---|---|
 |2.1|Open sample portfolio on [assets] page|Assets loaded on map|||
@@ -33,6 +36,7 @@ This page contains suggested test scripts that can be used to test the applicati
 |2.4|Run OS Climate workflow|Workflow runs Successfully and shows results on [activity] page||
 
 ### Test 3 - Workflows with user uploaded portfolio
+
 |#|Test|Expected result|Tested (Y/N)|Pass / Fail|
 |---|---|---|---|---|
 |3.1|Open CSV of asset data from local computer|Assets load successfully on map||
@@ -41,6 +45,7 @@ This page contains suggested test scripts that can be used to test the applicati
 |3.4|Run OS Climate workflow|Workflow runs Successfully and shows results on [activity] page||
 
 ### Test 4 - Workflows with user saved portfolio
+
 |#|Test|Expected result|Tested (Y/N)|Pass / Fail|
 |---|---|---|---|---|
 |4.1|Open saved portfolio of asset data|Assets load successfully on map||
@@ -48,16 +53,9 @@ This page contains suggested test scripts that can be used to test the applicati
 |4.3|Run LST (Night) workflow|Workflow runs Successfully and shows results on [activity] page||
 |4.4|Run OS Climate workflow|Workflow runs Successfully and shows results on [activity] page||
 
-
 ***
 [**Next Topic:** User Guide - Getting Started][gettingstarted]
 
-[gettingstarted]: /uk_eodatahub/User%20Guide/b1-getting-started
-[about]: /uk_eodatahub/User%20Guide/b2-about
-[hazards]: /uk_eodatahub/bUser%20Guide/3-hazards
-[observations]: /uk_eodatahub/User%20Guide/b4-observations
-[assets]: /uk_eodatahub/User%20Guide/b5-assets
-[portfolios]: /uk_eodatahub/User%20Guide/b6-portfolios
-[analytics]: /uk_eodatahub/User%20Guide/b7-activity
-[activity]: /uk_eodatahub/User%20Guide/b8-activity
-[login]: /uk_eodatahubUser%20Guide/b10-login
+[gettingstarted]: /climate-app-docs/User%20Guide/b1-getting-started
+[assets]: /climate-app-docs/User%20Guide/b5-assets
+[activity]: /climate-app-docs/User%20Guide/b8-activity
