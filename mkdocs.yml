@@ -1,0 +1,54 @@
+site_name: EODH Climate Asset Risk Web Application
+site_url: https://eodhdocs.sparkgeo.uk
+site_author: Sparkgeo
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - search.suggest
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  logo: images/logos/sparkgeo-logo-white.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/EO-DataHub/
+  homepage: https://www.sparkgeo.com/
+
+extra_css:
+  - stylesheets/extra.css
+  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
